@@ -1,0 +1,67 @@
+body {
+    text-align: left;
+    margin-left:3em;
+}
+
+h1 {
+    padding: 1em 0;
+}
+
+hr {
+    margin: 1.5em 0;
+}
+
+input {
+    padding: .7em;
+    width: 15rem;
+    margin: 0 1em;
+}
+
+button {
+    padding:1em;
+}
+
+#regularTemp:after, #coldTemp:after, #warmTemp:after, #windy:after {
+    content: "";
+    background-size: 100% 100%;
+    display: inline-block;
+    height: 70px;
+    width:70px;  
+    position:relative;
+    right:-3em;  
+}
+
+#regularTemp:after {
+    background-image:url('images/regular.png');
+}
+
+#coldTemp:after {
+    background-image:url('images/cold.png');
+}
+
+#warmTemp:after {
+    background-image:url('images/hot.png');
+}
+
+#windy:after {
+    background-image:url('images/wind.png');
+}
+
+#outputCont p {
+    color: black;
+    font-size: larger;
+    margin: 1.5em;
+    padding:1em;
+    text-align: left;;
+}
+
+h2 {
+    text-align: left;
+}
+
+p.err {
+    margin: 0 2em;
+    color: #e10a0a;
+    font-variant-caps: all-small-caps;
+}
+
